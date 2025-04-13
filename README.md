@@ -15,9 +15,10 @@ A fast, simple API for fetching and summarizing the latest news headlines.
    pip install -r requirements.txt
    ```
 
-2. Create a `.env` file in the project root with your Gemini API key:
+2. Create a `.env` file in the project root with your API keys:
    ```
    GEMINI_API_KEY=your-gemini-api-key-here
+   MEDIASTACK_API_KEY=your-mediastack-api-key-here
    ```
 
 3. Run the server:

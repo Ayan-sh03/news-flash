@@ -20,7 +20,7 @@ class NewsSummarizer:
     def __init__(self):
         self.mediastack_url = "http://api.mediastack.com/v1/news"
         self.mediastack_params = {
-            'access_key': '2a7d5b4fb9277020128a44523170bc01',
+            'access_key': os.getenv("MEDIASTACK_API_KEY"),
             'countries': 'in',
         }
         # Initialize Gemini client
